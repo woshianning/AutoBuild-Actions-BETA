@@ -7,8 +7,8 @@ index 4c5981850..d88570a5b 100644
  			set wireless.default_radio${devidx}.network=lan
  			set wireless.default_radio${devidx}.mode=ap
 -			set wireless.default_radio${devidx}.ssid=OpenWrt
-+			set wireless.default_radio0.ssid=OpenWrt_2.4G
-+			set wireless.default_radio1.ssid=OpenWrt_5G
++			set wireless.default_radio0.ssid=PHICOMM
++			set wireless.default_radio1.ssid=PHICOMM
  			set wireless.default_radio${devidx}.encryption=none
  EOF
  		uci -q commit wireless
